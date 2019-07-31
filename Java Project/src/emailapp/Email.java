@@ -23,7 +23,7 @@ public class Email {
 		//call a method asking for department and return department
 		this.department = setDepartment();
 		
-//		System.out.println("Department : "+this.department);
+		System.out.println("Department : "+this.department);
 		
 		//call a method that returns a random password 
 		this.password = randomPassword(defaultPasswordLength);
@@ -46,6 +46,15 @@ public class Email {
 		else if(deptCh==2) return "dev";
 		else if(deptCh==3) return "acc";
 		else return "";
+		
+//		String r="";
+//		switch (in.nextInt()) {
+//			case 1: r="sales";break;
+//			case 2: r="dev";break;
+//			case 3: r="acc";break;
+//			case 0: r="";
+//		}
+//		return r;
 		
 		
 	}
