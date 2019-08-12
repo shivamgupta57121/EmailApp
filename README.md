@@ -1,4 +1,4 @@
-# EmailApp
+# EmailGeneration
 This app performs task of creating email accounts for new hires.<br>
 
 This application perform the following tasks:
