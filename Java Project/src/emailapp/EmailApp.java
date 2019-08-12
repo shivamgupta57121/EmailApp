@@ -16,6 +16,10 @@ public class EmailApp {
 //		System.out.println(em1.getPassword());
 		
 		System.out.println(em1.showInfo());
+		
+
+		Email em2 = new Email("Ayushi", "Gupta");
+		System.out.println(em2.showInfo());
 	}
 
 }
