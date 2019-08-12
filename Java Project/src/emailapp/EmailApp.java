@@ -20,6 +20,8 @@ public class EmailApp {
 
 		Email em2 = new Email("Ayushi", "Gupta");
 		System.out.println(em2.showInfo());
+		Email em3 = new Email("Amulya", "Gupta");
+		System.out.println(em3.showInfo());
 	}
 
 }
